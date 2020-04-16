@@ -1,0 +1,26 @@
+{
+  "name": "study-express-bestsellers-app",
+  "version": "1.0.0",
+  "description": "Best Sellers application for books",
+  "main": "app.js",
+  "scripts": {
+    "devStart": "nodemon server.js",  
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-azzaro/Study-Express-Bestsellers-App.git"
+  },
+  "author": "John Azzaro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john-azzaro/Study-Express-Bestsellers-App/issues"
+  },
+  "homepage": "https://github.com/john-azzaro/Study-Express-Bestsellers-App#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
